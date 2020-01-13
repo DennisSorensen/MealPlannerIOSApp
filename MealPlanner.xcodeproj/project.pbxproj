@@ -13,6 +13,7 @@
 		958F3FBB23CC927F00D36F48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 958F3FBA23CC927F00D36F48 /* Assets.xcassets */; };
 		958F3FBE23CC928000D36F48 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 958F3FBD23CC928000D36F48 /* Preview Assets.xcassets */; };
 		958F3FC123CC928000D36F48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 958F3FBF23CC928000D36F48 /* LaunchScreen.storyboard */; };
+		959AAF8F23CC9D0400D0E797 /* MealPlannerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959AAF8E23CC9D0400D0E797 /* MealPlannerController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		958F3FBD23CC928000D36F48 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		958F3FC023CC928000D36F48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		958F3FC223CC928000D36F48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		959AAF8E23CC9D0400D0E797 /* MealPlannerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealPlannerController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		958F3FB323CC927A00D36F48 /* MealPlanner */ = {
 			isa = PBXGroup;
 			children = (
+				959AAF8D23CC9CEA00D0E797 /* Controller */,
 				958F3FB423CC927A00D36F48 /* AppDelegate.swift */,
 				958F3FB623CC927A00D36F48 /* SceneDelegate.swift */,
 				958F3FB823CC927A00D36F48 /* ContentView.swift */,
@@ -73,6 +76,14 @@
 				958F3FBD23CC928000D36F48 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		959AAF8D23CC9CEA00D0E797 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				959AAF8E23CC9D0400D0E797 /* MealPlannerController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,6 +158,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				958F3FB523CC927A00D36F48 /* AppDelegate.swift in Sources */,
+				959AAF8F23CC9D0400D0E797 /* MealPlannerController.swift in Sources */,
 				958F3FB723CC927A00D36F48 /* SceneDelegate.swift in Sources */,
 				958F3FB923CC927A00D36F48 /* ContentView.swift in Sources */,
 			);
